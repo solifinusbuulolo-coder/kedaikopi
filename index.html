@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kopi Kenangan Senja</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">finuzz<span>Coffee</span>.</a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#products">Produk</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+    <!-- Shopping Cart -->
+    <div class="shopping-cart" aria-live="polite">
+      <p class="cart-empty">Keranjang masih kosong.</p>
+    </div>
+
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Hero Section start -->
+  <section class="hero" id="home">
+    <div class="mask-container">
+      <main class="content">
+        <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+        <p>Nikmati aroma kopi pilihan yang diracik dengan sepenuh hati.</p>
+      </main>
+    </div>
+  </section>
+  <!-- Hero Section end -->
+
+  <!-- About Section start -->
+  <section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="img/tentang-kami.jpg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Kenapa memilih kopi kami?</h3>
+        <p>Kami memilih biji kopi berkualitas dan menjaga proses penyeduhan agar setiap cangkir terasa istimewa.</p>
+        <p>Dari espresso hingga kopi susu, setiap menu dibuat untuk menemani waktu santai Anda.</p>
+      </div>
+    </div>
+  </section>
+  <!-- About Section end -->
+
+  <!-- Menu Section start -->
+  <section id="menu" class="menu">
+    <h2><span>Menu</span> Kami</h2>
+    <p>Temukan minuman favorit untuk menemani hari dan waktu istirahat Anda.
+    </p>
+
+    <div class="row">
+      <div class="menu-card">
+        <img src="img/1.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Espresso -</h3>
+        <p class="menu-card-price">IDR 15K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/1.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Capuccino -</h3>
+        <p class="menu-card-price">IDR 25K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/1.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Latte -</h3>
+        <p class="menu-card-price">IDR 20K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/1.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Espresso -</h3>
+        <p class="menu-card-price">IDR 15K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/1.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Espresso -</h3>
+        <p class="menu-card-price">IDR 15K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/1.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Espresso -</h3>
+        <p class="menu-card-price">IDR 15K</p>
+      </div>
+    </div>
+  </section>
+  <!-- Menu Section end -->
+
+  <!-- Products Section start -->
+  <section class="products" id="products">
+    <h2><span>Produk Unggulan</span> Kami</h2>
+    <p>Bawa pulang biji kopi pilihan dan nikmati pengalaman kopi di rumah.</p>
+
+    <div class="row">
+      <article class="product-card" data-name="Brazil Coffee Beans" data-price="30000" data-image="img/coffee-bag.jpg" data-description="Biji kopi Brazil dengan karakter rasa seimbang dan aroma yang kaya.">
+        <div class="product-icons">
+          <button type="button" class="add-to-cart" aria-label="Tambah Brazil Coffee Beans ke keranjang"><i data-feather="shopping-cart"></i></button>
+          <button type="button" class="item-detail-button" aria-label="Lihat detail Brazil Coffee Beans"><i data-feather="eye"></i></button>
+        </div>
+        <div class="product-image"><img src="img/coffee-bag.jpg" alt="Brazil Coffee Beans"></div>
+        <div class="product-content">
+          <h3>Brazil Coffee Beans</h3>
+          <div class="product-stars" aria-label="Rating 4 dari 5">
+            <i data-feather="star" class="star-full"></i><i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i><i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+      </article>
+      <article class="product-card" data-name="Premium Coffee Beans" data-price="35000" data-image="img/coffee-beans.svg" data-description="Pilihan biji kopi untuk seduhan harian dengan aroma khas.">
+        <div class="product-icons">
+          <button type="button" class="add-to-cart" aria-label="Tambah Premium Coffee Beans ke keranjang"><i data-feather="shopping-cart"></i></button>
+          <button type="button" class="item-detail-button" aria-label="Lihat detail Premium Coffee Beans"><i data-feather="eye"></i></button>
+        </div>
+        <div class="product-image"><img src="https://www.foodandwine.com/thmb/52bViurrPVbdtlJ3l1AYceR3wb8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/How-to-Store-Coffee-Beans-So-They-Stay-as-Fresh-as-Possible-FT-BLOG0525-Fellow-atmost-f82102b0077349fba0e040a7e6a1e5cc.jpg" alt="Premium Coffee Beans"></div>
+        <div class="product-content">
+          <h3>Premium Coffee Beans</h3>
+          <div class="product-stars" aria-label="Rating 4 dari 5">
+            <i data-feather="star" class="star-full"></i><i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i><i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 35K <span>IDR 60K</span></div>
+        </div>
+      </article>
+      <article class="product-card" data-name="Fresh Espresso" data-price="15000" data-image="img/1.jpg" data-description="Espresso dengan rasa kopi yang pekat dan crema lembut.">
+        <div class="product-icons">
+          <button type="button" class="add-to-cart" aria-label="Tambah Fresh Espresso ke keranjang"><i data-feather="shopping-cart"></i></button>
+          <button type="button" class="item-detail-button" aria-label="Lihat detail Fresh Espresso"><i data-feather="eye"></i></button>
+        </div>
+        <div class="product-image"><img src="img/1.jpg" alt="Fresh Espresso"></div>
+        <div class="product-content">
+          <h3>Fresh Espresso</h3>
+          <div class="product-stars" aria-label="Rating 4 dari 5">
+            <i data-feather="star" class="star-full"></i><i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i><i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 15K <span>IDR 25K</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- Products Section end -->
+
+  <!-- Contact Section start -->
+  <section id="contact" class="contact">
+    <h2><span>Kontak</span> Kami</h2>
+    <p>Ada pertanyaan atau ingin bekerja sama? Kirim pesan kepada kami.
+    </p>
+
+    <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347862248!2d107.57311709235512!3d-6.903444341687889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1672408575523!5m2!1sen!2sid"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+      <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="nama">
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="email">
+        </div>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="no hp">
+        </div>
+        <button type="submit" class="btn">kirim pesan</button>
+      </form>
+
+    </div>
+  </section>
+  <!-- Contact Section end -->
+
+  <!-- Footer start -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="credit">
+      <p>Created by <a href="">sandhikagalih</a>. | &copy; 2023.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Modal Box Item Detail start -->
+  <div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+      <button type="button" class="close-icon" aria-label="Tutup detail"><i data-feather="x"></i></button>
+      <div class="modal-content">
+        <img src="img/coffee-bag.jpg" alt="Brazil Coffee Beans">
+        <div class="product-content">
+          <h3>Brazil Coffee Beans</h3>
+          <p>Biji kopi Brazil dengan karakter rasa seimbang dan aroma yang kaya.</p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          <button type="button" class="modal-add-to-cart"><i data-feather="shopping-cart"></i> <span>Tambah ke keranjang</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Box Item Detail end -->
+
+<!-- My Javascript -->
+  <script src="js/script.js" defer></script>
+</body>
+
+</html>
